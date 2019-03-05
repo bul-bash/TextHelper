@@ -15,43 +15,81 @@
   </property>
   <widget class="QWidget" name="centralWidget">
    <layout class="QGridLayout" name="gridLayout_2">
-    <item row="0" column="3">
+    <item row="0" column="4">
      <layout class="QGridLayout" name="gridLayout">
       <item row="0" column="1">
        <layout class="QVBoxLayout" name="verticalLayout_2">
         <item>
-         <widget class="QRadioButton" name="cp1251">
-          <property name="text">
-           <string>CP1251</string>
+         <widget class="QGroupBox" name="fontBox">
+          <property name="title">
+           <string>Font</string>
           </property>
+          <widget class="QWidget" name="">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>20</y>
+             <width>86</width>
+             <height>83</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+             <widget class="QCheckBox" name="bold">
+              <property name="text">
+               <string>Bold</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="italic">
+              <property name="text">
+               <string>Italic</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="underline">
+              <property name="text">
+               <string>Underline</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
          </widget>
         </item>
         <item>
-         <widget class="QRadioButton" name="utf8">
-          <property name="text">
-           <string>UTF8</string>
+         <widget class="QGroupBox" name="encodingBox">
+          <property name="title">
+           <string>Encoding</string>
           </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QCheckBox" name="bold">
-          <property name="text">
-           <string>Bold</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QCheckBox" name="italic">
-          <property name="text">
-           <string>Italic</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QCheckBox" name="underline">
-          <property name="text">
-           <string>Underline</string>
-          </property>
+          <widget class="QWidget" name="">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>30</y>
+             <width>73</width>
+             <height>54</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <item>
+             <widget class="QRadioButton" name="cp1251">
+              <property name="text">
+               <string>CP1251</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QRadioButton" name="utf8">
+              <property name="text">
+               <string>UTF8</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
          </widget>
         </item>
         <item>
